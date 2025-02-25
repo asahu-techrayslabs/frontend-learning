@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script defer src="test.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center h-screen bg-gray-100">
+    <div id="startScreen" class="bg-white p-6 rounded-lg shadow-lg w-96">
+      <h2 class="text-xl font-bold mb-4 text-center">Enter Details</h2>
+      <form id="userForm" class="space-y-4">
+        <div>
+          <label class="block font-medium">Email:</label>
+          <input
+            type="email"
+            id="email"
+            class="border p-2 w-full rounded"
+            required
+          />
+          <p id="emailError" class="text-red-500 text-sm"></p>
+        </div>
+        <div>
+          <label class="block font-medium">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone"
+            class="border p-2 w-full rounded"
+            required
+          />
+          <p id="phoneError" class="text-red-500 text-sm"></p>
+        </div>
+        <button
+          type="submit"
+          class="bg-blue-500 text-white px-4 py-2 rounded w-full"
+        >
+          Start Test
+        </button>
+      </form>
+    </div>
+
+    <div id="quizScreen" class="hidden bg-white p-6 rounded-lg shadow-lg w-96">
+      <h2 class="text-xl font-bold mb-4 text-center">Quiz</h2>
+      <p id="questionCounter" class="text-center mb-2"></p>
+      <p class="mb-4 font-bold" id="questionText" class="font-medium"></p>
+      <div id="optionsContainer" class="space-y-2"></div>
+      <button
+        id="nextButton"
+        class="bg-green-500 text-white px-4 py-2 rounded w-full mt-4"
+      >
+        Next
+      </button>
+    </div>
+
+    <div
+      id="resultScreen"
+      class="hidden bg-white p-6 rounded-lg shadow-lg w-96"
+    >
+      <h2 class="text-xl font-bold mb-4 text-center">Quiz Result</h2>
+      <p id="finalScore" class="text-center text-lg font-bold"></p>
+      <button
+        id="restartButton"
+        class="bg-blue-500 text-white px-4 py-2 rounded w-full mt-4"
+      >
+        Restart
+      </button>
+    </div>
+  </body>
+</html>
