@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Vue.js Project",
+    "description": "Finish developing the Vue.js scheduler app and test its functionality.",
+    "type": "Work",
+    "priority": "High",
+    "dueDate": "2025-03-10"
+  },
+  {
+    "id": 2,
+    "title": "Buy Groceries",
+    "description": "Purchase vegetables, fruits, and dairy products from the supermarket.",
+    "type": "Personal",
+    "priority": "Medium",
+    "dueDate": "2025-03-07"
+  },
+  {
+    "id": 3,
+    "title": "Prepare Presentation",
+    "description": "Create slides for the upcoming project meeting.",
+    "type": "Work",
+    "priority": "High",
+    "dueDate": "2025-03-12"
+  },
+  {
+    "id": 4,
+    "title": "Read Vue.js Documentation",
+    "description": "Go through the official Vue.js docs to understand advanced concepts.",
+    "type": "Work",
+    "priority": "Medium",
+    "dueDate": "2025-03-08"
+  },
+  {
+    "id": 5,
+    "title": "Exercise at the Gym",
+    "description": "Complete a one-hour workout session, focusing on strength training.",
+    "type": "Personal",
+    "priority": "High",
+    "dueDate": "2025-03-07"
+  },
+  {
+    "id": 6,
+    "title": "Fix API Integration Issue",
+    "description": "Debug and resolve API authentication errors in the backend service.",
+    "type": "Work",
+    "priority": "High",
+    "dueDate": "2025-03-09"
+  },
+  {
+    "id": 7,
+    "title": "Call Parents",
+    "description": "Catch up with parents and discuss weekend plans.",
+    "type": "Personal",
+    "priority": "Low",
+    "dueDate": "2025-03-07"
+  },
+  {
+    "id": 8,
+    "title": "Review PRs on GitHub",
+    "description": "Go through the pending pull requests and provide necessary feedback.",
+    "type": "Work",
+    "priority": "Medium",
+    "dueDate": "2025-03-10"
+  },
+  {
+    "id": 9,
+    "title": "Plan Weekend Trip",
+    "description": "Research places to visit and book accommodations for the weekend trip.",
+    "type": "Personal",
+    "priority": "Medium",
+    "dueDate": "2025-03-08"
+  }
+]
